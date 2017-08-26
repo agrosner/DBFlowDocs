@@ -22,7 +22,6 @@ or for if you use Kotlin, KAPT:
 
 ```java
 kapt {
-    generateStubs = true
     arguments {
         arg("targetModuleName", "SomeUniqueModuleName")
     }
