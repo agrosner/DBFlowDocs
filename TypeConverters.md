@@ -49,7 +49,7 @@ public class JSONConverter extends TypeConverter<String, JSONObject> {
 
 ```
 
-Once this is defined, by using the annotation `@TypeConverter`, it is registered automatically accross all databases.
+Once this is defined, by using the annotation `@TypeConverter`, it is registered automatically across all databases.
 
 There are cases where you wish to provide multiple `TypeConverter` for same kind of field (i.e. `Date` with different date formats stored in a DB).
 
